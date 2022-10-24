@@ -1,16 +1,14 @@
 #include "main.h"
 
 /**
-* reset_to_98 - Resets a value
-*
-* Return: 1.
+* reset_to_98 - Resets a value to 98
+* @n: input resets value to 98
+* Return: void.
 */
 
 void reset_to_98 (int *n)
 {
-	int var = 98;
-	int *ip;
-	ip = &var;
-
-	printf("Address of var variable: %x\n" &var);
+	int *n;
+	*n = 98;
+	printf("Value of pointer *n: %x\n" *n);
 }
