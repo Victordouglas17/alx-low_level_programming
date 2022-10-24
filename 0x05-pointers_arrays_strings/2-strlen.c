@@ -1,0 +1,16 @@
+#include "main.h"
+
+/**
+ * _strlen - Prints the length of a string
+ * @s: checks length
+ * Return: Always 0.
+ */
+
+int _strlen(char *s)
+{
+	char var[] = *s
+		int i;
+	for (i = 0; s[i] != '\0'; ++i);
+	printf("%d\n",i);
+	return (0);
+}
