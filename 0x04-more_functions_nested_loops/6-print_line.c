@@ -2,13 +2,13 @@
 
 /**
  * print_line - prints straight line n times.
- *
  * @n: times straight line is printed.
- * Return: none. 
+ * Return: no return value. 
  */
+
 void print_line(int n)
 {
-	int x;
+	int x,i;
 
 	for (x= 0; x < n; i++)
 	{
