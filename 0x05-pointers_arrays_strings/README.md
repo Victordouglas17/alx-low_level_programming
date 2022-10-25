@@ -1,1 +1,1 @@
-ALX pointer Arryas strings project directory
+Pointers Arrays Strings
