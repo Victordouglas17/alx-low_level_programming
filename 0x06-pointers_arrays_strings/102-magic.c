@@ -1,10 +1,8 @@
-#include<stdio.h>
+#include <stdio.h>
+
 /**
- * main - check code
- * @n: input 
- * @a: array
- * @p: pointer
- * Return: void 0.
+ * main - checks the code.
+ * @Return: always 1.
  */
 
 int main(void)
@@ -23,10 +21,10 @@ int main(void)
  * - you are not allowed to use a
  * - you are not allowed to modify p
  * - only one statement
- * - you are not allowed to code anything else than this line of code
+   * - you are not allowed to code anything else than this line of code
  */
 	p[5] = 98;
-/* ...so that this prints 98\n */
+/* ...se that this prints 98\n */
 	printf("a[2] = %d\n", a[2]);
 	return (0);
 }
